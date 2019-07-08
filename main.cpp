@@ -2,9 +2,7 @@
 using namespace std;
 
 template<typename T>void FillRand(T Arr[], const int n);
-
 template<typename T>void Print(T Arr[], const int n);
-
 
 void main()
 {
@@ -26,6 +24,7 @@ template<typename T>void FillRand(T Arr[], const int n)
 		Arr[i] = rand() % 100;
 	}
 }
+
 template <typename T>void Print(T Arr[], const int n)
 {
 	for (int i = 0; i < n; i++)
